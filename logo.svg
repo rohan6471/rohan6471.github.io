@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800" role="img" aria-labelledby="title description">
+  <title id="title">Rohan — black and gold architectural R</title>
+  <desc id="description">An angular, sculpted R with polished gold faces, fine beveled edges and dark gold depth on a black background. No additional text or circular frame.</desc>
+  <defs>
+    <radialGradient id="background" cx=".52" cy=".4" r=".7">
+      <stop stop-color="#20201d"/>
+      <stop offset=".58" stop-color="#0e0e0d"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="319" y1="219" x2="619" y2="472" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b5842e"/>
+      <stop offset=".24" stop-color="#f2d47d"/>
+      <stop offset=".43" stop-color="#fff2b6"/>
+      <stop offset=".64" stop-color="#d5aa4b"/>
+      <stop offset="1" stop-color="#8e611c"/>
+    </linearGradient>
+    <linearGradient id="stem" x1="321" y1="242" x2="401" y2="574" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a97726"/>
+      <stop offset=".26" stop-color="#ffe8a0"/>
+      <stop offset=".55" stop-color="#d1a347"/>
+      <stop offset="1" stop-color="#78511d"/>
+    </linearGradient>
+    <linearGradient id="leg" x1="444" y1="385" x2="643" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a97928"/>
+      <stop offset=".3" stop-color="#e8c66c"/>
+      <stop offset=".51" stop-color="#fff0b0"/>
+      <stop offset=".72" stop-color="#c99b3d"/>
+      <stop offset="1" stop-color="#967027"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="329" y1="235" x2="625" y2="593" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f8dfa0"/>
+      <stop offset=".5" stop-color="#9b7128"/>
+      <stop offset="1" stop-color="#e9c775"/>
+    </linearGradient>
+    <filter id="shadow" x="-35%" y="-30%" width="180%" height="190%">
+      <feDropShadow dx="10" dy="20" stdDeviation="13" flood-color="#000000" flood-opacity=".8"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="800" fill="url(#background)"/>
+  <g transform="translate(0 -8)" filter="url(#shadow)">
+    <path d="M321 249H539L647 357L543 461L508 406L560 357L512 309H385V551L321 602Z" fill="#604014"/>
+    <path d="M321 590L334 603L385 552V539Z" fill="#5b3e16"/>
+    <path d="M445 385H526L655 590V603H574L445 398Z" fill="#624313"/>
+    <path d="M321 237H539L647 345L543 449L508 394L560 345L512 297H385Z" fill="url(#gold)" stroke="url(#edge)" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M321 237L385 297V539L321 590Z" fill="url(#stem)" stroke="url(#edge)" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M445 385H526L655 590H574Z" fill="url(#leg)" stroke="url(#edge)" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M326 241H537L640 345L575 410" fill="none" stroke="#fff0b7" stroke-width="1.5" stroke-opacity=".85"/>
+    <path d="M326 249V580L380 536V299" fill="none" stroke="#ffe6a0" stroke-width="1.5" stroke-opacity=".8"/>
+    <path d="M452 390H523L647 585H577Z" fill="none" stroke="#ffedb1" stroke-width="1.2" stroke-opacity=".8"/>
+    <path d="M390 301H510L554 345" fill="none" stroke="#52350e" stroke-width="4" stroke-opacity=".8"/>
+  </g>
+</svg>
